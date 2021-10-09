@@ -1,0 +1,18 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] quote = {"Hello There", "General Kenobi", "Do It", "Join Me", "Thats Impossible"};
+      foreach (string i in quote)
+      {
+          Console.WriteLine(i);
+
+      }
+        
+    }
+  }
+}
