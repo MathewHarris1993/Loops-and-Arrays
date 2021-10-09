@@ -1,0 +1,15 @@
+using System;
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          string[] quote = {"Hello There", "General Kenobi", "Do it", "Nooo"};
+          for(int i = 0; i < quote.length; i++)
+          {
+              Console.WriteLine(quote[i]);
+          }  
+        }
+    }
+}
